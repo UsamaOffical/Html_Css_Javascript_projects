@@ -117,7 +117,7 @@ body{
         gap: 20px;
         justify-content: space-between;
         padding: 0 20px;
-        margin-top: 50px;
+        margin-top: 25px;
     }
     .card{
         width: 90%;
@@ -149,6 +149,19 @@ body{
         color: white;
         margin-top: 20px;
         font-weight: bold;
+    }
+    .weather h1{
+        font-size: 50px;
+        font-weight: 500px;
+    }
+    .weather h2{
+        font-size: 25px;
+        font-weight: 300px; 
+        margin-top: -10px;
+    }
+    .weather-icon{
+        width: 120px;
+        margin-top: 30px;
     }
 }
 .greet{
