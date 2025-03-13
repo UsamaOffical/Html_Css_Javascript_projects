@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #02203d;
+}
+.app{
+    width: 90%;
+    max-width: 600px;
+    margin: 50px auto 0;
+    padding: 40px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 10px;
+}
+.app h1{
+    font-size: 30px;
+    color: #003566;
+    font-weight: 600;
+    border-bottom: 2px solid #001d3d;
+    padding-bottom: 20px;
+}
+.quiz h2{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 15px 0;
+    color: #001d3d;
+}
+.btn{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    cursor: pointer;
+    color:#001d3d;
+    background-color: rgb(239, 239, 239);
+}
+.btn:hover{
+    color: white ;
+    background-color:#001d3d ;
+}
+#next-btn{
+    margin: 15px auto 0;
+    padding: 10px;
+    display: block;  
+    cursor: pointer;
+    color:#001d3d;
+}
+#next-btn:hover{
+    color: white ;
+    background-color:#001d3d ;
+}
+
+.correct{
+    background-color: #9aeabc;
+}
+.inCorrect{
+    background-color: #ff9393;
+}
