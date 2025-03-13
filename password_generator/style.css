@@ -9,7 +9,7 @@ body{
 }
 
 .container{
-    margin: 150px auto;
+    margin: 200px auto;
     width: 90%;
     max-width: 400px;
 }
@@ -56,9 +56,13 @@ button img{
     margin-right: 6px;
 }
 
+.greet{
+    text-align: center;
+    margin-top: 30px;
+}
 @media (max-width: 480px){
     .container{
-        margin: 100px auto ;
+        margin: 150px auto ;
         width: 90%;
         max-width: 300px;
     }
