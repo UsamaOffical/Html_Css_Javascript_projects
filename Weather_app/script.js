@@ -8,7 +8,7 @@ const weather_icon = document.querySelector(".weather-icon")
 
 
 async function weather_check(city) {
-    const response = await fetch(api_url + city + `&APPID=${api_key}`)
+    const response = await fetch(`${api_url} ${city} &APPID=${api_key}`)
     let data = await response.json()
     if (response.status == 404) {
         document.querySelector(".error").style.display = "block"
@@ -49,5 +49,5 @@ search_btn.addEventListener("click", () => {
 })
 
 
-// // &units=metric
+
 
